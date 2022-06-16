@@ -1,0 +1,122 @@
+*, ::before, ::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+}
+#first{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#first div{
+    color: white;
+    width: 270px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 30px;
+}
+#first .one{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#first .two{
+    background-color: hsl(184, 100%, 22%);
+}
+#first .three{
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#first img{
+    height: 40px;
+    width: 65px;
+    margin-bottom: 28px;
+}
+#first h1{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+#first h2{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    width: 100%;
+    margin-bottom: 45px;
+}
+#first button{
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+}
+#first .one button{
+    border: 2px solid hsl(31, 77%, 52%);
+    color: hsl(31, 77%, 52%);
+}
+#first .two button{
+    border: 2px solid hsl(184, 100%, 22%);
+    color: hsl(184, 100%, 22%);
+}
+#first .three button{
+    border: 2px solid hsl(179, 100%, 13%);
+    color: hsl(179, 100%, 13%);
+}
+/* Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%) */
+
+#two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background-color: rgb(13, 20, 37); */
+}
+#major{
+    color: white;   
+    display: grid;
+    grid-template-areas: 
+    'a a a b'
+    'c c d d'
+    'c c e e'
+    ;
+    gap: 10px;
+    width: 50%;
+}
+#two div{
+    height: 100px;
+}
+#two .one{
+    background-color: rgb(185, 62, 24);
+    grid-area: a;
+    height: 200px;
+}
+#two .two{
+    background-color: rgb(255, 196, 0);
+    grid-area: b;
+    height: 200px;
+}
+#two .three{
+    background-color: rgb(54, 189, 54);
+    grid-area: c;
+    height: 250px;
+}
+#two .four{
+    background-color: blue;
+    grid-area: d;
+    height: 100px;
+}
+#two .five{
+    background-color: rgba(67, 67, 211, 0.897);
+    grid-area: e;
+    height: 140px;
+}
