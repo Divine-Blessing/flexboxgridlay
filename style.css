@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;300;400;500&display=swap');
 *, ::before, ::after{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
 }
 a{
     text-decoration: none;
@@ -70,16 +72,13 @@ a{
     border: 2px solid hsl(179, 100%, 13%);
     color: hsl(179, 100%, 13%);
 }
-/* Bright orange: hsl(31, 77%, 52%)
-Dark cyan: hsl(184, 100%, 22%)
-Very dark cyan: hsl(179, 100%, 13%) */
 
+/* GRID */
 #two{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    /* background-color: rgb(13, 20, 37); */
 }
 #major{
     color: white;   
