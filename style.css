@@ -119,3 +119,42 @@ a{
     grid-area: e;
     height: 140px;
 }
+
+@media (max-width: 375px){
+    #first{
+        flex-direction: column;
+    }
+    #first div{
+        height: 300px;
+    }
+    #first h1{
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+    #first .one{
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    #first .three{
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    #first img{
+        height: 35px;
+        width: 55px;
+        margin-bottom: 20px;
+    }
+    #first h1{
+        font-size: 28px;
+        margin-bottom: 22px;
+    }
+    #first h2{
+        font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 20px;
+    }
+    #first button{
+        height: 38px;
+        width: 100px;
+    }
+}
